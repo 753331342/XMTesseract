@@ -1,5 +1,5 @@
 //
-//  xmAppDelegate.h
+//  XMViewController.h
 //  XMTesseract
 //
 //  Created by 753331342@qq.com on 06/29/2017.
@@ -8,8 +8,6 @@
 
 @import UIKit;
 
-@interface xmAppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
+@interface XMViewController : UIViewController
 
 @end

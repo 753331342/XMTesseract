@@ -1,23 +1,26 @@
 //
-//  xmViewController.m
+//  XMViewController.m
 //  XMTesseract
 //
 //  Created by 753331342@qq.com on 06/29/2017.
 //  Copyright (c) 2017 753331342@qq.com. All rights reserved.
 //
 
-#import "xmViewController.h"
+#import "XMViewController.h"
 
-@interface xmViewController ()
+#import <XMTesseract/XMTesseract-umbrella.h>
+
+@interface XMViewController ()
 
 @end
 
-@implementation xmViewController
+@implementation XMViewController
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+	
+    [XMOpencvImageTool xm_obtainIDNumberImage:nil];
 }
 
 - (void)didReceiveMemoryWarning

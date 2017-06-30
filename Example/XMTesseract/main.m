@@ -7,11 +7,11 @@
 //
 
 @import UIKit;
-#import "xmAppDelegate.h"
+#import "XMAppDelegate.h"
 
 int main(int argc, char * argv[])
 {
     @autoreleasepool {
-        return UIApplicationMain(argc, argv, nil, NSStringFromClass([xmAppDelegate class]));
+        return UIApplicationMain(argc, argv, nil, NSStringFromClass([XMAppDelegate class]));
     }
 }
