@@ -478,10 +478,8 @@ class TESS_API TessBaseAPI {
 
   /**
    * Dump the internal binary image to a PGM file.
-   * @deprecated Use GetThresholdedImage and write the image using pixWrite
-   * instead if possible.
    */
-  void DumpPGM(const char* filename);
+  void DumpPGM(const char* filename) CA_DEPRECATED;
 
   /**
    * Runs page layout analysis in the mode set by SetPageSegMode.
