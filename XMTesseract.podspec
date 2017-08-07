@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "XMTesseract"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "识别中国二代身份证号"
 
   # This description is used to generate tags and improve search results.
